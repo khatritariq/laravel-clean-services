@@ -23,5 +23,5 @@ Route::get('v1/user/{$id}', 'UserController@get');
 
 
 
-Route::post('v2/user', 'UserCreateController');
-Route::get('v2/user/{$id}', 'UserGetController');
+Route::post('v2/user', 'User\CreateController');
+Route::get('v2/user/{$id}', 'User\GetController');
